@@ -9,9 +9,28 @@
     font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-*::before, 
+*::before,
 *::after {
     box-sizing: border-box;
+}
+
+main {
+    background: #FBEDE0;
+    background: linear-gradient(314deg, 
+    rgba(251, 237, 224, 1) 0%, 
+    rgba(229, 232, 225, 1) 50%, 
+    rgba(207, 237, 234, 1) 100%);
+}
+
+/* Header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 50px;
 }
 
 .main-font {
