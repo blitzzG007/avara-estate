@@ -1,91 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/962e89a5c4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/962e89a5c4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Avara Estate | Home</title>
-</head>
-<body>
+  </head>
+  <body>
     <main class="avara-estate">
-        <!-- header section -->
-        <header>
-            <div class="logo">
-                <a href="index.html">
-                   <img src="assets/img/real-estate-logo.png" alt="">
-                </a>
-                <a class="company-name main-font" href="index.html">Avara <span class="main-font">Estate</span></a>
+      <!-- header section -->
+      <header>
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="assets/img/real-estate-logo.png"
+              alt="Minimalist logo with three vertical bars and elliptical swoosh"
+            />
+          </a>
+          <a class="company-name main-font" href="index.html">
+            Avara <span class="main-font">Estate</span>
+          </a>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li class="link"><a href="index.html">Home</a></li>
+            <li class="link">Houses</li>
+            <li class="link">Commercial</li>
+            <li class="link">For rent</li>
+            <li class="link link-us">About</li>
+            <li class="link">Contact</li>
+          </ul>
+        </nav>
+        <div class="currency-login">
+          <select class="currency">
+            <option value="dollar">USD</option>
+            <option value="euro">EUR</option>
+            <option value="norwegian kroner">NOK</option>
+            <option value="saudi riyal">SAR</option>
+            <option value="british pound">GPD</option>
+            <option value="swedish kroner">SEK</option>
+            <option value="UAE dihram">AED</option>
+          </select>
+          <a class="login" href="#">Login</a>
+        </div>
+      </header>
+
+      <!-- main content section -->
+      <h1 class="main-font heading">
+        Luxury <span class="gone main-font">Living</span> &
+        <span class="gone main-font">Smart</span> Investments
+      </h1>
+      <section class="main-content">
+        <div class="main-hero">
+          <div class="mansion">
+            <img
+              src="assets/img/mansion.jpg"
+              alt="Modern two-story house with pool and patio"
+            />
+          </div>
+          <div class="search-description">
+            <div class="search-bar">
+              <input type="search" placeholder="Search houses..." />
+              <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-            <nav class="navbar">
-                <ul>
-                    <li class="link"><a href="index.html">Home</a></li>
-                    <li class="link">Houses</li>
-                    <li class="link">Commercial</li>
-                    <li class="link">For rent</li>
-                    <li class="link link-us">About</li>
-                    <li class="link"> Contact</li>
-                </ul>
-            </nav>
-            <div class="currency-login">
-                <button class="currency">
-                    USD
-                    <i class="fa-solid fa-angle-down"></i>
+            <div class="description">
+              <div class="street-save">
+                <div class="street">
+                  <p>1458 Your Street,</p>
+                  <p>New York, NY 01342</p>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+              <div class="house-info">
+                <div>
+                  <p>5</p>
+                  <p class="text-info">beds</p>
+                </div>
+                <div>
+                  <p>3</p>
+                  <p class="text-info">baths</p>
+                </div>
+                <div>
+                  <p>2,500</p>
+                  <p class="text-info">sqft</p>
+                </div>
+              </div>
+              <div class="price-option">
+                <p class="price">$2,450,000</p>
+                <select name="option" class="option">
+                  <option value="" disabled selected hidden>
+                    Split Option
+                  </option>
+                  <option value="#">Full price</option>
+                  <option value="#">Monthly price</option>
+                </select>
+              </div>
+              <div class="selger-profile">
+                <p class="selger-type">Agent</p>
+                <div class="profile">
+                  <div class="profile-pic">
+                    <img
+                      class="profile-pic"
+                      src="assets/img/agent.jpg"
+                      alt="Person in blazer holding model house against dark background"
+                    />
+                  </div>
+                  <p class="profile-text">
+                    “Questions explained agreeable preferred strangers too him
+                    her son. Set put shyness offices...”
+                  </p>
+                </div>
+                <p class="profile-name">Emma Mary Wattson</p>
+              </div>
+              <div class="cta">
+                <button class="btn">
+                  <p>Request a tour</p>
+                  <p class="small-btn-text">Earliest at 12 pm tomorrow</p>
                 </button>
-                <a class="login" href="#">Login</a>
+              </div>
             </div>
-        </header>
-        
-        <h1 class="main-font heading">Luxury Living & Smart Investments</h1>
-        <!-- main content section -->
-        <section class="main-content">
-            <div class="main-hero">
-                <div class="mansion">
-                    <img src="assets/img/mansion.jpg" alt="">
-                </div>
-                <div class="search-description">
-                    <div class="search-bar">
-                        <input type="search" placeholder="Search houses...">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <div class="description">
-                        <div class="street-save">
-                            <div class="street">
-                                <p>1458 Your Street,</p>
-                                <p>New York, NY 01342</p>
-                            </div>
-                            <i class="fa-regular fa-bookmark"></i>
-                        </div>
-                        <div class="house-info">
-                            <div>
-                                <p>5</p>
-                                <p class="text-info">beds</p>
-                            </div>
-                            <div>
-                                <p>3</p>
-                                <p class="text-info">baths</p>
-                            </div>
-                            <div>
-                                <p>2,500</p>
-                                <p class="text-info">sqft</p>
-                            </div>
-                        </div>
-                        <div class="selger-profile">
+          </div>
+        </div>
+        <div class="property-stats"></div>
+      </section>
 
-                        </div>
-                        <div class="cta">
-                            <p>Request a tour</p>
-                            <p>Earliest at 12 pm tomorrow</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="property-stats"></div>
-        </section>
-
-        <!-- footer section -->
-        <footer></footer>
+      <!-- footer section -->
+      <footer></footer>
     </main>
-</body>
+  </body>
 </html>
