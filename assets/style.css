@@ -184,6 +184,25 @@ input::placeholder {
     margin-right: 30px;
 }
 
+.house-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.house-info {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 15px 30px;
+}
+
+.text-info {
+    font-size: 13px;
+    color: var(--sec-text-color);
+    font-weight: normal;
+}
+
+/* I am here */
+
 .property-stats {
     background: var(--sec-color);
     width: 100%;
