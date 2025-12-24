@@ -141,6 +141,7 @@ header {
 }
 
 .search-bar input {
+    background: var(--sec-color);
     width: 382px;
     font-size: 15px;
     padding: 0.6rem;
@@ -273,6 +274,7 @@ input::placeholder {
 }
 
 .profile-name {
+    font-size: 14.5px;
     margin: 5px 0 0 10px;
     transform: translateY(-5px);
 }
