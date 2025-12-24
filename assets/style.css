@@ -308,6 +308,19 @@ input::placeholder {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
+
+/* footer section */
+footer {
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
 @media (min-width: 800px) {
     .heading {
         font-size: 3rem;
