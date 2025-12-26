@@ -51,6 +51,7 @@ header {
     align-items: center;
     padding-top: 10px;
     margin-bottom: 30px;
+    position: relative;
 }
 
 .logo {
@@ -61,24 +62,49 @@ header {
 }
 
 .logo img {
-    max-width: 45px;
+    max-width: 30px;
 }
 
 .company-name {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .company-name span {
     color: #6A6968;
 }
 
-.navbar .link {
-    display: inline-flex;
-    margin-right: 15px;
+.navbar, 
+#menu-check {
+    display: none;
 }
 
-.link-us {
-    margin-left: 20px;
+#menu-check:checked ~ .navbar {
+    display: block;
+}
+
+.navbar {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    padding: 20px 30px;
+    z-index: 2;
+    background: #FBEDE0;
+    background: linear-gradient(310deg,
+    rgba(229, 232, 225, 1) 79%,
+    rgba(207, 237, 234, 1) );
+    border-bottom-left-radius: 20px;
+}
+
+.menu {
+    font-size: 21.5px;
+    position: absolute;
+    right: 20px;
+}
+
+.navbar .link {
+    display: block;
+    margin-right: 15px;
+    padding: 10px 0;
 }
 
 .currency-login {
@@ -86,6 +112,7 @@ header {
     align-items: center;
     margin-right: 20px;
     gap: 7px;
+    transform: translateX(-85px);
 }
 
 .currency,
@@ -264,7 +291,7 @@ input::placeholder {
 
 .profile-pic {
     width: 91px;
-    height: 87px;
+    height: 85px;
     background: red;
     border-radius: 50%;
 }
@@ -359,8 +386,35 @@ footer p {
         margin-left: 60px;
     }
 
+    .company-name {
+        font-size: 20px;
+    }
+
+    .logo img {
+        max-width: 45px;
+    }
+
+    .navbar {
+        display: block;
+        position: static;
+        background: none;
+        padding: none;
+    }
+
+    .navbar .link {
+        display: inline-flex;
+    }
+
     .gone {
         display: inline-block;
+    }
+
+    .link-us {
+        margin-left: 20px;
+    }
+
+    .currency-login {
+        transform: none;
     }
 
     /* main content secction */
@@ -387,5 +441,10 @@ footer p {
 
     .stats i {
         font-size: 16px;
+    }
+
+    #menu-check, 
+    .menu {
+        display: none;
     }
 }
