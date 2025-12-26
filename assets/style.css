@@ -209,7 +209,7 @@ input::placeholder {
 }
 
 .house-info {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin: 15px 0px;
 }
@@ -228,12 +228,13 @@ input::placeholder {
 }
 
 .option {
+    font-size: 12px;
     padding: 3px;
     border: 1px solid #cccccc;
 }
 
 .price {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -275,7 +276,7 @@ input::placeholder {
 }
 
 .profile-name {
-    font-size: 14.5px;
+    font-size: 13.5px;
     margin: 5px 0 0 10px;
     transform: translateY(-5px);
 }
@@ -327,12 +328,16 @@ input::placeholder {
 }
 
 .stats .small-p {
-    font-size: 10.5px;
+    font-size: 9.5px;
     color: #8a8a8a;
 }
 
 .stats .big-p {
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.stats i {
+    font-size: 14.5px;
 }
 
 /* footer section */
@@ -369,6 +374,18 @@ footer p {
     }
 
     .house-info {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
+    }
+
+    .stats .small-p {
+        font-size: 10.5px;
+    }
+
+    .stats .big-p {
+        font-size: 14px;
+    }
+
+    .stats i {
+        font-size: 16px;
     }
 }
