@@ -32,6 +32,17 @@
         margin-left: 20px;
     }
 
+    .link-us::after {
+        content: '';
+        width: 5px;
+        height: 5px;
+        background: var(--main-color);
+        top: 20px;
+        right: 163px;
+        position: absolute;
+        border-radius: 50%;
+    }
+
     .currency-login {
         transform: none;
     }

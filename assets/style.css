@@ -44,6 +44,10 @@ a {
     color: var(--main-color);
 }
 
+ul {
+    position: relative;
+}
+
 /* Header section */
 header {
     display: flex;
@@ -132,6 +136,7 @@ header {
     border-radius: 20px;
     font-size: 13.3px;
 }
+
 
 
 /* main content section */
