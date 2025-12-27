@@ -367,6 +367,10 @@ input::placeholder {
     font-size: 14.5px;
 }
 
+.prices {
+    display: flex;
+}
+
 /* footer section */
 footer {
     text-align: center;
