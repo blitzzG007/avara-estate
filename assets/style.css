@@ -223,7 +223,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     color: #8a8a8a;
-    font-size: 14.5px;
+    font-size: 12.5px;
 }
 
 .street-save i {
@@ -381,74 +381,4 @@ footer {
 footer p {
     font-size: 14px;
     letter-spacing: 3px;
-}
-
-@media (min-width: 800px) {
-    .heading {
-        font-size: 3rem;
-        text-align: left;
-        margin-left: 60px;
-    }
-
-    .company-name {
-        font-size: 20px;
-    }
-
-    .logo img {
-        max-width: 45px;
-    }
-
-    .navbar {
-        display: block;
-        position: static;
-        background: none;
-        padding: none;
-    }
-
-    .navbar .link {
-        display: inline-flex;
-    }
-
-    .gone {
-        display: inline-block;
-    }
-
-    .link-us {
-        margin-left: 20px;
-    }
-
-    .currency-login {
-        transform: none;
-    }
-
-    /* main content secction */
-    .main-hero {
-        flex-direction: row;
-    }
-
-    .property-stats {
-        width: 65%;
-        justify-content: center;
-    }
-
-    .house-info {
-        font-size: 1.4rem;
-    }
-
-    .stats .small-p {
-        font-size: 10.5px;
-    }
-
-    .stats .big-p {
-        font-size: 14px;
-    }
-
-    .stats i {
-        font-size: 16px;
-    }
-
-    #menu-check, 
-    .menu {
-        display: none;
-    }
 }
